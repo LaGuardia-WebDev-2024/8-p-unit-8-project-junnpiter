@@ -4,9 +4,9 @@
 }
 
 body {
-  background-color: aliceblue;
+  background-color: rgb(255, 208, 186);
   text-align: center;
-  color: navy;
+  color: rgb(128, 0, 0);
   margin: auto;
   font-family: water;
 }
@@ -16,7 +16,7 @@ h1{
 }
 
 #myCanvas {
-  background-image: url("https://www.freepik.com/free-photos-vectors/beach-background");
+  background-image: url("https://as1.ftcdn.net/jpg/05/28/26/10/1000_F_528261085_IDIH06nSwPUlvd0RDqcDK9gs2kWoQybm.jpg");
   background-size: 600px 400px;
   border-radius: 300px;
   border: 5px solid white;

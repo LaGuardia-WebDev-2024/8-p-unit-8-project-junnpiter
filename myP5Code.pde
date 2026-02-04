@@ -3,8 +3,7 @@ setup = function() {
     size(600, 400);
     background(255,255,255,0);
     
-    drawFish(200, 200, color(200,0,200)); 
-    drawFish(300, 200, color(0,200,200));
+    drawCoconut(200, 200, color(200,0,200)); 
 };
 
 //🟢draw Function - will run on repeat
@@ -18,10 +17,10 @@ mouseClicked = function(){
 }
 
 //🟡drawFish Function - will run when called
-var drawFish = function(fishX, fishY, fishColor){
+var drawCoconut = function(coconutX, coconutY, coconutColor){
   textSize(80);
-  fill(fishColor);
-  text("𓆝", fishX, fishY);
+  fill(coconutColor);
+  text("🥥", coconutX, coconutY);
 };
 
 
