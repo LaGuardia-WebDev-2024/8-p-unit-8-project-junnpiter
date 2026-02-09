@@ -3,11 +3,22 @@ setup = function() {
     size(600, 400);
     background(255,255,255,0);
     
-    drawCoconut(200, 200, color(200,0,200)); 
+
 };
 
 //🟢draw Function - will run on repeat
 draw = function(){
+  background(255, 255, 255, 0);
+//coconut
+  fill(102, 60, 18);
+ellipse(mouseX, mouseY, 75, 75);
+//person
+fill(255, 255, 255);
+ellipse(175, 310, 50, 50);
+line(200, 315, 250, 315);
+line(200, 315, 215, 340);
+line()
+
 
 };
 
@@ -17,10 +28,10 @@ mouseClicked = function(){
 }
 
 //🟡drawFish Function - will run when called
-var drawCoconut = function(coconutX, coconutY, coconutColor){
+var drawPerson = function(personX, personY){
   textSize(80);
-  fill(coconutColor);
-  text("🥥", coconutX, coconutY);
+  fill(personColor);
+  text("🥥", personX, personY);
 };
 
 
